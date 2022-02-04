@@ -6,8 +6,8 @@ var audio = new Audio();
 function handleClick() {
   var soundURL = "sounds/skidamarink.mp3";
   switch (this.innerHTML) {
-    case 'Baby shark':
-      soundURL = "sounds/BabyShark.mp3";
+    case 'Jalebi Baby':
+      soundURL = "sounds/JalebiBaby.mp3";
       break;
     case 'Bella Ciao':
       soundURL = "sounds/BellaCiao.mp3";
@@ -26,6 +26,9 @@ function handleClick() {
       break;
     case 'Happy Birthday':
       soundURL = "sounds/HappyBirthday.mp3";
+      break;
+    case 'Bijlee Bijlee':
+      soundURL = "sounds/BijleeBijlee.mp3";
       break;
   }
   audio.pause();

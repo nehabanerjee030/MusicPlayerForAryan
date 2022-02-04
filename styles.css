@@ -4,20 +4,24 @@ body {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 2rem;
   color: #DBEDF3;
   font-family: "Arvo", cursive;
   text-shadow: 3px 0 #DA0463;
-
 }
 
 footer {
   color: #DBEDF3;
   font-family: sans-serif;
 }
-.babyshark {
-  background-image: url("images/babyshark.jpg");
+.jalebiBaby {
+  background-image: url("images/jalebiBaby.jpg");
 }
+
+.bijleeBijlee {
+  background-image: url("images/bijleeBijlee.jpg");
+}
+
 
 .bellaCiao {
   background-image: url("images/bellaCiao.jpg");
@@ -44,7 +48,7 @@ footer {
 }
 
 .set {
-  margin: 10% auto;
+  margin: 10px auto;
 }
 
 .game-over {
